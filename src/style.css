@@ -1,0 +1,12 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Additional styles for the identity form */
+#identity-form {
+    margin-bottom: 30px;
+}
+
