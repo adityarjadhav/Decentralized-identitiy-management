@@ -1,12 +1,228 @@
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #f9f9f9;
 }
 
-/* Additional styles for the identity form */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 #identity-form {
-    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
+#identity-form h2 {
+    margin-top: 0;
+}
+
+#identity-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#identity-form input {
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#identity-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#identity-form button:hover {
+    background-color: #555;
+}
+
+#identity-list {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#identity-list h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#identity-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#identity-list li {
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+#identity-list li:last-child {
+    border-bottom: none;
+}
+
+#search {
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    width: calc(70% - 8px);
+    padding: 10px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#searchButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#searchButton:hover {
+    background-color: #555;
+}
+
+#pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pagination button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 4px;
+}
+
+#pagination button:hover {
+    background-color: #555;
+}
+
+#detail-view {
+    display: none;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#detail-view h2 {
+    margin-top: 0;
+}
+
+#detail-view button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#detail-view button:hover {
+    background-color: #555;
+}
+
+#confirmationDialog {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 999;
+}
+
+#confirmationDialog p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+#confirmationDialog button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+#confirmationDialog button:hover {
+    background-color: #555;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+}
+
+#contactUsButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+} 
+
+#contactUsButton:hover {
+    background-color: #555;
+} 
+
+#contactOptions {
+    text-align: left; /* Align contact options to the left */
+}
+
+#contactOptions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contactOptions li {
+    margin-bottom: 8px;
+}
+
+/* .hidden { */
+    /* display: none; */
+/* } */
