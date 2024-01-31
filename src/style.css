@@ -223,6 +223,6 @@ footer {
     margin-bottom: 8px;
 }
 
-/* .hidden { */
-    /* display: none; */
-/* } */
+.hidden{
+    display: none;
+}
